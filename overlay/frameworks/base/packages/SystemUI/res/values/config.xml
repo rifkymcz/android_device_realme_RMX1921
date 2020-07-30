@@ -49,7 +49,7 @@
     <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>    
 
     <!-- Allow devices override audio panel location to the left side -->
-    <bool name="config_audioPanelOnLeftSide">false</bool>
+    <bool name="config_audioPanelOnLeftSide">true</bool>
 
     <!-- The CPU temperature sensor path, defaults to empty -->
     <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone3/temp</string>
