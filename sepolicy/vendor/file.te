@@ -58,3 +58,6 @@ type sysfs_boostms, sysfs_type, fs_type;
 type sysfs_iboostms, sysfs_type, fs_type;
 
 type proc_vibration_file, sysfs_type, fs_type;
+
+# Kernelspace Batter saver
+type sysfs_battery_saver, fs_type, sysfs_type;
