@@ -132,6 +132,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=0 \
     debug.sf.hw=1 \
+    debug.sdm.support_writeback=0 \
     ro.opengles.version=196610 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
