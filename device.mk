@@ -546,8 +546,10 @@ PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
 # Thermal
+ifeq ($(TARGET_USE_QTI_THERMAL_SERVICE),true)
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
+endif
 
 # USB
 PRODUCT_PACKAGES += \
