@@ -17,7 +17,6 @@ set_prop(vendor_init, oppo_debug_prop)
 allow vendor_init oppo_wlan_prop:file { open read getattr };
 
 set_prop(vendor_init, vendor_power_prop)
-allow vendor_init proc_sched_boost:file rw_file_perms;
 allow vendor_init sysfs_devfreq_state:file rw_file_perms;
 allow vendor_init system_file:file r_file_perms;
 allow vendor_init sysfs_devfreq:lnk_file { open read getattr };
