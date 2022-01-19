@@ -40,4 +40,7 @@
 
     <!-- Screen off FOD -->
     <bool name="config_supportScreenOffFod">false</bool>
+
+    <!-- Whether to show a preference item for regulatory information in About phone -->
+    <bool name="config_show_regulatory_info">true</bool>
 </resources>
