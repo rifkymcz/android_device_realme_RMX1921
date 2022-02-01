@@ -57,8 +57,9 @@
         <activity android:name=".RealmeParts" />
         <activity android:name=".KeyHandler" />
 
-        <receiver android:name="org.device.RealmeParts.Startup" >
-            <intent-filter android:priority="100" >
+        <receiver android:name="org.device.RealmeParts.Startup" 
+                  android:exported="true">
+            <intent-filter android:priority="1000" >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
