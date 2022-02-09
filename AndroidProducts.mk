@@ -9,4 +9,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     evolution_RMX1921-userdebug \
+    evolution_RMX1921-user \
     evolution_RMX1921-eng
