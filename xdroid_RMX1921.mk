@@ -4,8 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common XDroid stuff.
+$(call inherit-product, vendor/xdroid/config/common.mk)
+
+# Inherit XDroid build
+XDROID_BOOT := 1080
+XDROID_MAINTAINER := MaxAndreas
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from RMX1921 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -13,7 +18,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1921
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := lineage_RMX1921
+PRODUCT_NAME := xdroid_RMX1921
 PRODUCT_MODEL := Realme XT
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
