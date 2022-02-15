@@ -47,15 +47,11 @@ BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/realme/sdm710
+TARGET_KERNEL_SOURCE := kernel/realme/RMX1921
 TARGET_KERNEL_CONFIG := RMX1921_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := proton
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000
-BOARD_MKBOOTIMG_ARGS += --tags_offset 0x00000100
-BOARD_MKBOOTIMG_ARGS += --kernel_offset 0x00008000
-BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
-BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
+TARGET_KERNEL_CLANG_VERSION := neutron
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-neutron
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
