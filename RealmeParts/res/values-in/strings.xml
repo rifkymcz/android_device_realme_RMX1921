@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">Realme Parts</string>
+    <string name="device_summary">Setelan khusus realme</string>
+    <string name="customize_title">Sesuaikan</string>
+    <string name="misc_title">Setelan lain-lain</string>
+    <string name="display_title">Tampilan</string>
+    <string name="touch">Layar sentuh</string>
+
+    <!-- Peredupan DC -->
+    <string name="dc_mode_summary">Mengurangi kedipan layar saat kecerahan rendah</string>
+    <string name="dc_mode_title">Peredupan DC</string>
+    <string name="tile_dc_mode">Peredupan DC</string>
+    <!-- Mode HBM -->
+    <string name="hbm_mode_summary">Kecerahan puncak untuk visibilitas yang lebih baik di luar ruangan</string>
+    <string name="hbm_mode_title">Mode kecerahan tinggi</string>
+    <string name="tile_hbm_mode">Mode kecerahan tinggi</string>
+    <string name="hbm_autobrightness_summary"></string>
+    <string name="hbm_autobrightness_title">Mode kecerahan tinggi otomatis</string>
+    <string name="hbm_autobrightness_threshold_summary"></string>
+    <string name="hbm_autobrightness_threshold_title">Ambang mode kecerahan tinggi otomatis (lux)</string>
+    <!-- mode benih -->
+    <string name="seed_mode_summary">Pilih bagaimana warna akan dirender</string>
+    <string name="seed_summary">Mode tampilan</string>
+    <string name="seed_title">Mode tampilan</string>
+    <string name="seed_normal">Default</string>
+    <string name="seed_p3">P3</string>
+    <string name="seed_srgb">SRgb</string>
+    <!-- mode otg -->
+    <string name="otg_mode_summary">Aktifkan catu daya USB-OTG untuk headphone eksternal dan flash drive</string>
+    <string name="otg_mode_title">Aktifkan USB-OTG</string>
+    <string name="tile_otg_mode">Aktifkan USB-OTG</string>
+    <!-- mode permainan -->
+    <string name="game_mode_summary">Tingkatkan Rasio Sampling Sentuh</string>
+    <string name="game_mode_title">Mode Permainan</string>
+    <string name="tile_game_mode">Mode Permainan</string>
+
+    <!-- Gerakan Layar Sentuh -->
+    <string name="dlg_ok">Oke</string>
+    <string name="cancel">Batal</string>
+    <string name="reset">Setel ulang</string>
+    <string name="reset_message">Setel ulang semua entri ke default?</string>
+    <string name="group_applications">Aplikasi</string>
+    <string name="select_custom_app_title">Pilih aplikasi khusus</string>
+    <string name="gestures_dashboard_summary">Gerakan layar sentuh sederhana di layar terkunci</string>
+    <string name="enable_gestures_title">Aktifkan gerakan</string>
+    <string name="enable_gestures_summary">Aktifkan gerakan layar mati</string>
+    <string name="gestures_title">Gerakan</string>
+    <string name="gesture_double_tap_title">Gerakan Ketuk Dua Kali</string>
+    <string name="gesture_w_title">Gerakan W</string>
+    <string name="gesture_m_title">Gerakan M</string>
+    <string name="gesture_s_title">Gesture S</string>
+    <string name="gesture_circle_title">Lingkaran Isyarat</string>
+    <string name="gesture_two_swipe_title">Gerakan Dua Gesek</string>
+    <string name="gesture_up_arrow_title">Gerakan Panah Atas</string>
+    <string name="gesture_down_arrow_title">Gerakan Panah Bawah</string>
+    <string name="gesture_left_arrow_title">Gerakan Panah Kiri</string>
+    <string name="gesture_right_arrow_title">Gerakan Panah Kanan</string>
+    <string name="gesture_swipe_up_title">Gesture Geser Ke Atas</string>
+    <string name="gesture_swipe_down_title">Gesture Geser Ke Bawah</string>
+    <string name="gesture_swipe_left_title">Gestur Geser ke Kiri</string>
+    <string name="gesture_swipe_right_title">Gestur Geser ke Kanan</string>
+    <string name="KharaMeParts_summary">Gerakan dan Perubahan</string>
+    <string name="screen_off_gestures">Gerakan layar mati</string>
+    <string name="enable_dt2w_title">Aktifkan Ketuk Dua Kali</string>
+    <string name="enable_dt2w_summary">Aktifkan Gerakan Ketuk Dua Kali</string>
+    <string name="dt2w_title">Ketuk Dua Kali</string>
+    <string name="haptic_feedback_title">Umpan Balik Haptik</string>
+
+    <!-- Tindakan pintasan -->
+    <string name="shortcut_action_none">Tidak ada</string>
+    <string name="shortcut_action_app">Aplikasi khusus</string>
+    <string name="shortcut_action_home">Beranda</string>
+    <string name="shortcut_action_back">Kembali</string>
+    <string name="shortcut_action_menu">Menu</string>
+    <string name="shortcut_action_ime">Buka Pengalih IME</string>
+    <string name="shortcut_action_power_menu">Menu daya</string>
+    <string name="shortcut_action_recent">Terbaru</string>
+    <string name="shortcut_action_power">Layar Mati</string>
+    <string name="shortcut_action_search">Telusuri di aplikasi</string>
+    <string name="shortcut_action_now_on_tap">Sekarang di Ketuk</string>
+    <string name="shortcut_action_ring_vib">Dering/Vib</string>
+    <string name="shortcut_action_ring_silent">Dering/Hening</string>
+    <string name="shortcut_action_ring_vib_silent">Dering/Vib/Senyap</string>
+    <string name="shortcut_action_camera">Kamera</string>
+    <string name="shortcut_action_media_next">Musik - trek berikutnya</string>
+    <string name="shortcut_action_media_play_pause">Musik - putar/jeda</string>
+    <string name="shortcut_action_media_previous">Musik - trek sebelumnya</string>
+    <string name="shortcut_action_wake_device">Bangunkan perangkat</string>
+    <string name="shortcut_action_kill">Bunuh aplikasi</string>
+    <string name="shortcut_action_screenshot">Screenshot</string>
+    <string name="shortcut_action_lastapp">Aplikasi terakhir</string>
+    <string name="shortcut_action_notifications">Pemberitahuan</string>
+    <string name="shortcut_action_qs">Panel pengaturan cepat</string>
+    <string name="shortcut_action_torch">Senter</string>
+    <string name="shortcut_action_longpress">Tekan lama:</string>
+    <string name="shortcut_action_select_action_longpress">Pilih tindakan tekan lama:</string>
+    <string name="shortcut_action_select_action">Pilih tindakan:</string>
+    <string name="shortcut_action_select_action_newaction">Pilih tindakan baru:</string>
+    <string name="shortcut_action_reset">Setel Ulang</string>
+    <string name="shortcut_action_add">Tambah</string>
+    <string name="shortcut_action_reset_message">Setel ulang semua entri ke default?</string>
+    <string name="shortcut_action_max">Ukuran entri maksimum telah tercapai</string>
+    <string name="shortcut_action_warning">Peringatan</string>
+    <string name="shortcut_action_warning_message">Tidak mungkin menghapus entri terakhir</string>
+    <string name="shortcut_action_required_warning_message">Tombol yang diperlukan tidak dapat dihapus</string>
+    <string name="shortcut_action_disable_message">Nonaktif\nTambahkan entri untuk mengaktifkan fitur ini</string>
+    <string name="shortcut_image_not_valid">Aplikasi yang dipilih tidak mengembalikan ikon yang valid atau tidak mendukung pemotongan gambar. Gunakan aplikasi lain.</string>
+    <string name="shortcut_duplicate_entry">Tindakan yang dipilih tidak dapat ditambahkan dua kali</string>
+    <string name="shortcut_action_help_shortcut">jalan pintas</string>
+    <string name="shortcut_action_help_button">tombol</string>
+    <string name="shortcut_action_help_app">aplikasi</string>
+    <string name="shortcut_action_help_icon">, saat memilih ikon akan memunculkan opsi penyesuaian</string>
+    <string name="shortcut_action_help_main">Untuk menambahkan %1$s, pilih ikon Tambah. Setelah %1$s ditambahkan, memilih baris akan mengubah target%2$s\n\nUntuk menghapus %1$s, geser baris ke kiri atau kanan secara horizontal. Susun ulang %1$s dalam daftar dengan menyeret jangkar secara vertikal di sebelah kiri.\n\nUntuk menghapus atau menyetel ulang ke default, pilih opsi setel ulang.</string>
+    <string name="shortcut_action_ambient_display">Tampilkan tampilan sekitar</string>
+    <string name="shortcut_action_vol_up">Naikkan volume</string>
+    <string name="shortcut_action_vol_down">Kecilkan volume</string>
+
+    <!-- Pengaturan khusus perangkat -->
+    <string name="screen_off_gesture_settings_title">Gerakan layar mati</string>
+
+    <!-- Umpan balik haptic isyarat layar sentuh -->
+    <string name="touchscreen_gesture_haptic_feedback">Umpan balik haptik</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">Bergetar saat gerakan Layar Sentuh terdeteksi</string>
+
+    <!-- Kkal -->
+    <string name="kcal_title">Kontrol warna tampilan</string>
+    <string name="kcal_summary">Menampilkan kalibrasi warna menggunakan KCAL</string>
+    <string name="kcal_enabled_title">Aktifkan KCAL</string>
+    <string name="kcal_enabled_summary">Aktifkan kalibrasi tampilan menggunakan KCAL</string>
+    <string name="kcal_red">Merah</string>
+    <string name="kcal_green">Hijau</string>
+    <string name="kcal_blue">Biru</string>
+    <string name="kcal_saturation">Saturasi</string>
+    <string name="kcal_contrast">Kontras</string>
+    <string name="menu_reset">Setel ulang</string>
+    <string name="kcal_color_temp">Suhu warna (K)</string>
+
+    <string name="kcal_greyscale_title">Skala abu-abu</string>
+    <string name="kcal_greyscale_summary">Nonaktifkan saturasi sepenuhnya</string>
+    <string name="presets_list_title">Muat preset KCAL</string>
+    <string name="default_values">Default</string>
+    <string name="version_1">Versi 1</string>
+    <string name="version_2">Versi 2</string>
+    <string name="version_3">Versi 3</string>
+    <string name="triluminous">Trluminous</string>
+    <string name="deep_black_and_white">Hitam Putih Dalam</string>
+    <string name="deep_natural">Alami Dalam</string>
+    <string name="cool_amoled">Amoled Keren</string>
+    <string name="extreme_amoled">Amoled Ekstrim</string>
+    <string name="warm_amoled">Amoled Hangat</string>
+    <string name="hybrid_mamba">Hybrid Mamba</string>
+    <string name="deep_amoled">Amoled Dalam</string>
+    <string name="cold_amoled">Amoled Baru Dingin</string>
+    <string name="clean_deep">Dalam dan Bersih</string>
+    <string name="shamshung">Shamshung</string>
+    <string name="nature">Alam</string>
+    <string name="shamshung_cold">Shamshung keren</string>
+    <string name="cold_as_ice">Dingin Ekstrem</string>
+    <string name="deep_saturated">Dalam dan Jenuh</string>
+    <string name="black_af">Hitam Jenuh Dalam</string>
+    <string name="kcal_hue">Hue</string>
+    <string name="kcal_value">Nilai</string>
+
+    <!-- Audio -->
+    <string name="audio_title">Audio</string>
+
+    <!-- Bilah pencarian khusus -->
+    <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_default_value_to_set">Nilai default: <xliff:g id="v">%s</xliff:g>\nTekan lama untuk menyetel</string>
+    <string name="custom_seekbar_default_value_is_set">Nilai default disetel</string>
+    <string name="switch_bar_on">Aktif</string>
+    <string name="switch_bar_off">Nonaktif</string>
+
+    <string name="audio_gain_settings">Amplifikasi Audio</string>
+    <string name="gain_summary">Tingkatkan perolehan perangkat audio</string>
+
+    <!-- Amplifikasi audio -->
+    <string name="headphone_gain">Penguatan headphone</string>
+    <string name="microphone_gain">Penguatan mikrofon</string>
+
+    <!-- Dolby -->
+    <string name="dolby_summary">Buka aplikasi Dolby Atmos</string>
+    <string name="dolby_title">Aplikasi Dolby</string>
+
+    <!-- Profil Kinerja -->
+    <string name="performance_profile_title">Kinerja</string>
+    <string name="performance_title">Profil Kinerja</string>
+    <string name="performance_summary">Penyetelan kinerja</string>
+    <string name="performance_dialogTitle">Pilih profil kinerja Anda</string>
+
+    <!-- Nilai untuk prasetel kinerja -->
+    <string name="performance_extreme">Ekstrim</string>
+    <string name="performance_battery">Baterai</string>
+    <string name="performance_gaming">Game</string>
+    <string name="performance_balance">Saldo</string>
+
+    <!-- Speaker jernih -->
+    <string name="clear_speaker_title">Pembersih speaker</string>
+    <string name="clear_speaker_summary">Putar audio 30 detik untuk membersihkan speaker</string>
+    <string name="clear_speaker_description">Jalankan fitur ini sekali atau dua kali jika ternyata speaker Anda terhalang debu ringan. Setel volume media ke maksimum.\n\nJika speaker tersumbat parah, jalankan fitur ini 2-5 kali sambil menggoyang perangkat dengan speaker menghadap ke bawah.\n\nPERINGATAN: Pastikan headphone dicabut.</string>
+    
+    <!-- Getaran -->
+    <string name="vibration_title">Getaran</string>
+    <string name="vibration_summary">Sesuaikan kekuatan getaran</string>
+    <string name="vibration_strength_system_title">Getaran sistem</string>
+    <string name="vibration_strength_notification_title">Getaran notifikasi</string>
+    <string name="vibration_strength_call_title">Getaran panggilan</string>
+</resources>
