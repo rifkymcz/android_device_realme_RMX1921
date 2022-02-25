@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+               (C) 2017 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
+    <string name="summary_empty" translatable="false"></string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">On</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Off</string>
+
+    <!-- Pengaturan khusus perangkat -->
+    <string name="device_settings_app_name">Setelan lanjutan</string>
+
+    <!-- Tampilan Sekitar -->
+    <string name="ambient_display_title">Tampilan sekitar</string>
+    <string name="ambient_display_enable_title">Tampilan sekitar</string>
+    <string name="ambient_display_enable_summary">Bangunkan layar saat Anda menerima notifikasi</string>
+    <string name="ambient_display_gestures_title">Gerakan tampilan sekitar</string>
+    <string name="ambient_display_gestures_summary">Gerakan tambahan untuk membangunkan layar</string>
+    <string name="ambient_display_summary">Bangunkan layar saat Anda menerima notifikasi</string>
+    <string name="ambient_display_summary_on">Layar akan aktif saat Anda menerima notifikasi</string>
+    <string name="ambient_display_summary_off">Layar tidak akan aktif saat Anda menerima notifikasi</string>
+    <string name="ambient_display_always_on_title">Selalu aktif</string>
+    <string name="ambient_display_always_on_summary">Tampilkan waktu, ikon notifikasi, dan info lainnya. Peningkatan penggunaan baterai.</string>
+
+    <!-- Sensor kemiringan -->
+    <string name="tilt_sensor_title">Sensor kemiringan</string>
+
+    <!-- Sensor pengambilan -->
+    <string name="pickup_sensor_title">Sensor pengambilan</string>
+
+    <!-- Sensor jarak -->
+    <string name="proximity_sensor_title">Sensor jarak</string>
+
+    <!-- Gerakan mengambil -->
+    <string name="pick_up_gesture_title">Pengambilan</string>
+    <string name="pick_up_gesture_summary">Notifikasi pulsa saat pengambilan</string>
+
+    <!-- Angkat untuk membangunkan gerakan-->
+    <string name="wake_gesture_title">Bangun</string>
+    <string name="wake_gesture_summary">Bangunkan perangkat alih-alih pemberitahuan yang berdenyut</string>
+
+    <!-- Gerakan saku -->
+    <string name="pocket_gesture_title">Saku</string>
+    <string name="pocket_gesture_summary">Notifikasi pulsa saat dikeluarkan dari saku</string>
+
+    <!-- Kedekatan bangun -->
+    <string name="proximity_wake_title">Kedekatan bangun</string>
+    <string name="proximity_wake_enable_title">Kedekatan bangun</string>
+
+    <!-- Senar bangun pintar-->
+    <string name="smart_wake_gesture_title">Bangun Cerdas</string>
+    <string name="smart_wake_gesture_summary">Notifikasi pulsa pada sedikit gerakan perangkat dan layar bangun saat diangkat</string>
+
+    <!-- Teks dialog -->
+    <string name="dialog_ok">Oke</string>
+
+    <!-- Teks bantuan -->
+    <string name="doze_settings_help_title">Bantuan</string>
+    <string name="doze_settings_help_text">Fitur ini menggunakan peristiwa sensor untuk meluncurkan pulsa pemberitahuan istirahat. Sensor yang dipilih hanya diaktifkan ketika perangkat menerima pemberitahuan, ini membantu mengurangi penggunaan baterai. Ada juga opsi untuk mengaktifkan sensor yang dipilih segera setelah layar mati, ini akan menyebabkan penggunaan baterai yang lebih tinggi.</string>
+</resources>
+
